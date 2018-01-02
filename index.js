@@ -63,12 +63,13 @@ function ReYeelightPlatform(log, config, api) {
     }
     
     
-    this.log.info("[ReYeelight][INFO]*********************************************************************");
-    this.log.info("[ReYeelight][INFO]*                         ReYeelight v%s                         *",packageFile.version);
-    this.log.info("[ReYeelight][INFO]*    GitHub: https://github.com/Zzm317/homebridge-re-yeelight       *");
-    this.log.info("[ReYeelight][INFO]*                                                                   *");
-    this.log.info("[ReYeelight][INFO]*********************************************************************");
-    this.log.info("[ReYeelight][INFO]start success...");
+    this.log.info("[INFO]*********************************************************************");
+    this.log.info("[INFO]*                         ReYeelight v%s                         *",packageFile.version);
+    this.log.info("[INFO]*    GitHub: https://github.com/Zzm317/homebridge-re-yeelight       *");
+    this.log.info("[INFO]*                        QQ Group:545171648                         *");
+    this.log.info("[INFO]*    Telegram Group:https://t.me/joinchat/EujYfA-JKSwpRlXURD1t6g    *");
+    this.log.info("[INFO]*********************************************************************");
+    this.log.info("[INFO]start success...");
     
 }
 
@@ -107,7 +108,7 @@ ReYeelightPlatform.prototype = {
                     });
                 }
             }
-            this.log.info("[ReYeelight][INFO]device size: " + deviceCfgs.length + ", accessories size: " + myAccessories.length);
+            this.log.info("[INFO]device size: " + deviceCfgs.length + ", accessories size: " + myAccessories.length);
         }
 
         callback(myAccessories);

@@ -5,18 +5,24 @@ Yeelight plugin for homebridge(Rewrited)
    
 Thanks for [nfarina](https://github.com/nfarina)(the author of [homebridge](https://github.com/nfarina/homebridge)), [OpenMiHome](https://github.com/OpenMiHome/mihome-binary-protocol), [aholstenson](https://github.com/aholstenson)(the author of [miio](https://github.com/aholstenson/miio)), all other developer and testers.   
 
+欢迎加入我们的QQ群 545171648 讨论  
+QQ Group:545171648  
+Telegram Group: https://t.me/joinchat/EujYfA-JKSwpRlXURD1t6g
+
 ## Supported Types
-1.ColorLEDBulb(Yeelight智能灯泡)  
-2.DeskLamp(Yeelight台灯)  
-3.ColorLedStrip(Yeelight彩光灯带)  
-4.CeilingLamp(Yeelight吸顶灯)  
-4.WhiteBulb(Yeelight白光灯泡)  
+1. ColorLEDBulb(Yeelight智能灯泡)  
+2. DeskLamp(Yeelight台灯)  
+3. ColorLedStrip(Yeelight彩光灯带)  
+4. CeilingLamp(Yeelight吸顶灯)  
+5. WhiteBulb(Yeelight白光灯泡)  
 
 ## Installation
 1. Install HomeBridge, please follow it's [README](https://github.com/nfarina/homebridge/blob/master/README.md).   
 If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi).   
+如果你能阅读中文,你可以阅读 [homebridge非官方安装指南](https://homekit.loli.ren).
 2. Make sure you can see HomeBridge in your iOS devices, if not, please go back to step 1.   
 3. Install packages.   
+4. Install Plugin. 
 
 ### I suggest you to turn on UpdateTimer, it will not send too much heartbeat packet.
 ```
@@ -90,19 +96,21 @@ miio --discover --sync
 Wait until you get output.   
 For more information about token, please refer to [OpenMiHome](https://github.com/OpenMiHome/mihome-binary-protocol) and [miio](https://github.com/aholstenson/miio).   
 ## Version Logs 
+### 0.0.11
+1. add QQ and TG Group
 ### 0.0.8
-1.bug fix
+1. bug fix
 ### 0.0.7
-1.fix the bug caused by class name
+1. fix the bug caused by class name
 ### 0.0.6
-1.add support for WhiteBulb
+1. add support for WhiteBulb
 ### 0.0.5
-1.add support for CeilingLamp
+1. add support for CeilingLamp
 ### 0.0.4
-1.add Support for LedStrip And Rewrite code
+1. add Support for LedStrip And Rewrite code
 ### 0.0.3
-1.add Support for Desklamp
+1. add Support for Desklamp
 ### 0.0.2
-1.No Change, Just emmmmmmmmmm
+1. No Change, Just emmmmmmmmmm
 ### 0.0.1
-1.add support for ColourLEDBulb.
+1. add support for ColourLEDBulb.
